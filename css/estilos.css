@@ -10,6 +10,7 @@ header {
 }
 
 h1 {
+    font-family: Algerian;
     text-align: center;
     color: rgb(26, 28, 36);
 }
@@ -40,6 +41,7 @@ section {
 }
 
 h2 {
+    font-family: Algerian;
     text-underline-position: auto;
     color: rgb(12, 88, 155);
 }
