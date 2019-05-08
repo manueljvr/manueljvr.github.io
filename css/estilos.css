@@ -53,3 +53,7 @@ li {
 article {
     width: 700px;
 }
+
+a:hover {
+    color: aqua;
+}
