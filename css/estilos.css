@@ -19,6 +19,7 @@ body {
 }
 
 .descripcion {
+    text-underline-position: auto;
     color: violet;
 }
 
@@ -35,7 +36,7 @@ p {
 }
 
 section {
-    text-align: center;
+    text-justify: auto;
     color: rgb(75, 75, 62);
 }
 
@@ -45,4 +46,8 @@ h2 {
 
 li {
     color: blue;
+}
+
+article {
+    width: 700px;
 }
