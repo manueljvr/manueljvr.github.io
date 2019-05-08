@@ -1,11 +1,37 @@
+body {
+    height: 900px;
+    width: 100%;
+    margin: 0px auto 0px auto;
+}
+
 header {
-    color: aqua;
+    text-align: center;
+    color: blue;
 }
 
 h1 {
-    color: gray;
+    text-align: center;
+    color: rgb(11, 38, 129);
 }
 
 body {
     background-color: antiquewhite;
+}
+
+.descripcion {
+    color: violet;
+}
+
+p {
+    color: black;
+}
+
+section {
+    text-align: center;
+    color: rgb(75, 75, 62);
+}
+
+li {
+    height: 900px;
+    width: 100%;
 }
