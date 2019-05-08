@@ -1,5 +1,11 @@
 header {
-    width: 800px;
-    height: 100px;
-    margin: 0px auto 0px auto;
+    color: aqua;
+}
+
+h1 {
+    color: gray;
+}
+
+body {
+    background-color: antiquewhite;
 }
