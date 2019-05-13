@@ -23,17 +23,17 @@ body {
     color: violet;
 }
 
-.datos {
+.cuerpo {
     position: relative;
-    top: -400px;
-    right: 100px;
-    left: 450px;
-    color: violet;
+    right: 50px;
+    left: -250px;
 }
 
-.cuerpo {
+.datos {
+    position: relative;
+    top: -150px;
     right: 100px;
-    left: 900px;
+    left: 220px;
     color: violet;
 }
 
