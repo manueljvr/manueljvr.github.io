@@ -24,15 +24,22 @@ body {
 }
 
 .datos {
+    position: relative;
+    top: -400px;
+    right: 100px;
+    left: 450px;
     color: violet;
 }
 
-.cuerpo {
+img .cuerpo {
+    right: 100px;
+    left: 900px;
     color: violet;
 }
 
 p {
     color: black;
+    width: 1020px;
 }
 
 section {
