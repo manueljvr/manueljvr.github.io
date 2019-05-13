@@ -63,15 +63,13 @@ header {
     height: 800px;
     border: 1px solid #ccc;
     float: left;
-}
-
-.L2 {
-    margin-left: 12px;
-    margin-right: 12px;
+    padding: 5px;
+    text-align: center;
 }
 
 .leer-mas {
     text-decoration: none;
     border: 1px solid blue;
     padding: 10px 20px 10px 20px;
+    margin: 10px;
 }
