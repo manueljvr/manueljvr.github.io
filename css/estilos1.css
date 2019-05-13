@@ -1,26 +1,77 @@
-#llacanora,
-#Namora,
-#Porcon {
-    color: rgb(49, 47, 47);
+#Centros {
+    width: 900px;
+    height: 1000px;
+    border: 1px solid #ccc;
+    margin: auto;
 }
 
 body {
-    background-color: rgb(59, 228, 87);
+    background-color: white;
 }
 
-ul {
-    color: black;
+header {
+    width: 900px;
+    height: 100px;
+    border: 1px solid #ccc;
 }
 
-h1 {
+#Turismo {
+    width: 350px;
+    height: 100px;
+    float: left;
     text-align: center;
-    color: blue;
-}
-
-h2 {
-    color: brown;
-}
-
-h1 {
     font-family: Algerian;
+}
+
+.Menu {
+    width: 350px;
+    height: 40px;
+    border: 1px solid #ccc;
+    float: right;
+    margin-top: 20px;
+}
+
+.Menu ul {
+    list-style: none;
+    float: right;
+}
+
+.Menu ul a {
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    color: black;
+    background: blue;
+}
+
+#imagen {
+    margin-top: 10px;
+    width: 900px;
+    height: 250px;
+}
+
+#lugares {
+    width: 900px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.L1 {
+    width: 280px;
+    height: 800px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.L2 {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.leer-mas {
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 10px 20px 10px 20px;
 }
