@@ -20,5 +20,8 @@ p {
 }
 
 ul {
-    text-align: center;
+    width: 50px;
+    left: 10px;
+    color: whitesmoke;
+    font-family: Arial Narrow;
 }
