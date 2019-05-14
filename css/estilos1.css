@@ -1,7 +1,7 @@
     #Centros {
-        width: 900px;
+        width: 700px;
         height: 1000px;
-        border: 1px solid #ccc;
+        border: 1px solid beige;
         margin: auto;
     }
     
@@ -10,13 +10,13 @@
     }
     
     header {
-        width: 900px;
+        width: 700px;
         height: 100px;
         border: 1px solid #ccc;
     }
     
     #Turismo {
-        width: 350px;
+        width: 300px;
         height: 100px;
         float: left;
         text-align: center;
@@ -39,19 +39,19 @@
     .Menu ul a {
         text-decoration: none;
         padding: 10px 10px;
-        border: 1px solid #ccc;
+        border: 1px solid beige;
         color: black;
         background: blue;
     }
     
     #imagen {
         margin-top: 10px;
-        width: 900px;
+        width: 700px;
         height: 250px;
     }
     
     #lugares {
-        width: 900px;
+        width: 700px;
         height: auto;
         overflow: hidden;
         border: 1px solid #ccc;
@@ -59,7 +59,7 @@
     }
     
     .L1 {
-        width: 280px;
+        width: 220px;
         height: 500px;
         border: 1px solid #ccc;
         float: left;
@@ -80,6 +80,7 @@
         width: 280px;
         height: 800px;
         margin-top: 70px;
+        margin-left: 40px;
     }
     
     #D1 h1 {
@@ -98,6 +99,7 @@
         width: 280px;
         height: 800px;
         margin-top: 70px;
+        margin-right: 40px;
     }
     
     #D2 h1 {
@@ -112,7 +114,7 @@
     
     #fo {
         color: white;
-        margin-top: 50px;
+        margin-top: 10px;
         width: 1500px;
         height: 80px;
         margin-left: 0px;
