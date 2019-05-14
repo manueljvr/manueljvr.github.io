@@ -1,66 +1,89 @@
 body {
-    height: 900px;
-    width: 100%;
+    height: 1200px;
+    width: 1200px;
     margin: 0px auto 0px auto;
+    background: lightgray;
 }
 
 header {
     text-align: center;
-    color: blue;
+    margin-top: 20px;
 }
 
 h1 {
+    height: 20px;
+    width: 1000px;
     font-family: Algerian;
     text-align: center;
-    color: rgb(26, 28, 36);
+    color: black;
 }
 
-body {
-    background-color: antiquewhite;
-}
-
-.descripcion {
-    color: violet;
+h2 {
+    margin-top: 70px;
+    font-family: Algerian;
+    color: black;
 }
 
 .cuerpo {
-    position: relative;
-    right: 50px;
-    left: -250px;
+    margin-top: 20px;
+    width: 900px;
+    height: 250px;
 }
 
 .datos {
-    position: relative;
-    top: -150px;
+    margin-top: -250px;
     right: 100px;
     left: 220px;
-    color: violet;
-}
-
-p {
+    float: right;
     color: black;
     width: 1020px;
 }
 
-section {
-    text-justify: auto;
-    color: rgb(75, 75, 62);
+.datos h2 {
+    margin-top: 70px;
+    color: black;
 }
 
-h2 {
-    font-family: Algerian;
-    text-underline-position: auto;
-    color: rgb(12, 88, 155);
+.descripcion {
+    margin-top: 10px;
+    width: 900px;
+    height: 200px;
 }
 
-li {
-    color: blue;
+.gustos {
+    margin-top: 20px;
+    width: 900px;
+    height: 300px;
 }
 
-article {
-    width: 700px;
+.gustos h1 {
+    text-align: left;
 }
 
 a:hover {
     color: aqua;
+}
+
+.menu {
+    width: 350px;
+    height: 10px;
+    float: left;
+    margin-top: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    float: right;
+}
+
+.menu ul a {
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    color: black;
+    background: peru;
+}
+
+#frases {
+    margin-top: 10px;
 }
