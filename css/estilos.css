@@ -5,11 +5,12 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    margin-top: 10px;
 }
 
 header {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 h1 {
@@ -41,6 +42,10 @@ h2 {
     width: 1020px;
 }
 
+.datos p {
+    color: black;
+}
+
 .datos h2 {
     margin-top: 70px;
     color: black;
@@ -68,7 +73,7 @@ a:hover {
 
 .menu {
     width: 350px;
-    height: 10px;
+    height: 50px;
     float: left;
     margin-top: 10px;
 }
@@ -78,6 +83,5 @@ a:hover {
 }
 
 #img1 {
-    height: 130px;
-    width: 1200px;
+    right: 1000px;
 }
