@@ -26,7 +26,7 @@
     .Menu {
         width: 350px;
         height: 40px;
-        border: 1px solid white;
+        border: 1px solid beige;
         float: right;
         margin-top: 20px;
     }
@@ -79,6 +79,7 @@
         float: left;
         width: 280px;
         height: 800px;
+        margin-top: 70px;
     }
     
     #D1 h1 {
@@ -91,9 +92,25 @@
         float: right;
         width: 280px;
         height: 800px;
+        margin-top: 70px;
     }
     
     #D2 h1 {
         font-family: Algerian;
+        text-align: center;
+    }
+    
+    #fo {
+        color: white;
+        margin-top: 50px;
+        width: 1500px;
+        height: 80px;
+        margin-left: 0px;
+        font-family: algerian;
+        background: blue;
+    }
+    
+    #fo p {
+        margin: 0px;
         text-align: center;
     }

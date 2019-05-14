@@ -36,6 +36,21 @@ a:hover {
     margin-left: 900px;
 }
 
-.fo {
-    margin-top: 0px;
+#id {
+    text-align: center;
+}
+
+#fo {
+    color: white;
+    margin-top: 50px;
+    width: 1200px;
+    height: 80px;
+    margin-left: 0px;
+    font-family: algerian;
+    background: blue;
+}
+
+#fo p {
+    margin: 0px;
+    text-align: center;
 }

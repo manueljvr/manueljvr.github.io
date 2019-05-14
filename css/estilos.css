@@ -81,4 +81,20 @@ a:hover {
 
 .img1 {
     position: relative;
+    margin-top: 50px;
+}
+
+#fo {
+    color: white;
+    margin-top: 50px;
+    width: 1200px;
+    height: 80px;
+    margin-left: 0px;
+    font-family: algerian;
+    background: blue;
+}
+
+#fo p {
+    margin: 0px;
+    text-align: center;
 }
