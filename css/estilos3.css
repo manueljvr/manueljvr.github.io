@@ -1,13 +1,41 @@
+* {
+    margin: 3px;
+    padding: 5px
+}
+
 body {
-    width: 900px;
-    height: 1000px;
-    background-color: rgba(142, 143, 235, 0.479);
+    width: 1200px;
+    height: 10px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    background: beige;
 }
 
 h1 {
-    color: blue;
+    color: black;
+    font-family: Algerian;
 }
 
 a:hover {
-    color: darkcyan;
+    color: blue;
+}
+
+#oma {
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#con {
+    margin-top: -550px;
+    float: right;
+    color: black;
+    margin-left: 900px;
+}
+
+.fo {
+    margin-top: 0px;
 }
