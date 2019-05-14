@@ -16,10 +16,6 @@ h1 {
     font-family: Algerian;
 }
 
-a:hover {
-    color: blue;
-}
-
 #oma {
     width: 500px;
     height: auto;
@@ -53,4 +49,8 @@ a:hover {
 #fo p {
     margin: 0px;
     text-align: center;
+}
+
+a:hover {
+    color: blue;
 }
