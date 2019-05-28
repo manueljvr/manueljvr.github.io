@@ -1,0 +1,210 @@
+body {
+    background: url(../images/fond_jaune.png) no-repeat right;
+}
+
+#general {
+    width: 900px;
+    margin: auto;
+}
+
+section h1,
+footer h1,
+nav a {
+    text-transform: uppercase;
+    font-family: algerian;
+    font-weight: normal;
+}
+
+header {
+    background: url(../images/separateur.png) repeat-x bottom;
+}
+
+#titulo {
+    display: inline-block;
+}
+
+header h1 {
+    font-family: Algerian;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+#logo,
+header h1 {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+header h2 {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+nav {
+    display: inline-block;
+    width: 900px;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 20px;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: #3b69be;
+    border-bottom: 5px solid #3b69be;
+}
+
+#imgFondo {
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(../images/sanfrancisco.jpg) no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #9b705a;
+    margin-bottom: 25px;
+}
+
+#descripcionImg {
+    position: absolute;
+    bottom: 0;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(121, 115, 115, 0.8);
+    color: white;
+    font-size: 15px;
+}
+
+.button {
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: rgb(197, 71, 71);
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: center;
+    padding: 3px 8px 2px 8px;
+    color: white;
+}
+
+.button img {
+    border: 0;
+}
+
+article,
+aside {
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+article {
+    width: 625px;
+    margin-right: 15px;
+}
+
+.icon {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+article p {
+    font-size: 14px;
+}
+
+aside {
+    position: relative;
+    width: 235px;
+    background-color: #35322f;
+    box-shadow: 0px 2px 5px #665d58;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+#bulle {
+    position: relative;
+    top: 50px;
+    left: -21px;
+}
+
+#zozor {
+    text-align: center;
+}
+
+#zozor img {
+    border: 1px solid #c71d1d;
+}
+
+footer {
+    background: url(../images/top.png)no-repeat top center, url(../images/separateur.png)repeat-x top, url(../images/ombre.png)repeat-x top;
+    padding: 15px;
+}
+
+footer p,
+footer ul {
+    font-size: 15px;
+}
+
+footer h1 {
+    font-size: 17px;
+}
+
+#foot,
+#pictur,
+#friend {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#foot {
+    width: 25%;
+}
+
+#pictur {
+    width: 40%;
+}
+
+#friend {
+    width: 30%;
+}
+
+#pictur img {
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#friend ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 48%;
+    list-style-image: url(../images/flecha.png);
+    padding-left: 2px;
+}
+
+#friend a {
+    text-decoration: none;
+    color: #8d4c4d;
+}
