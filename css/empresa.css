@@ -1,0 +1,115 @@
+    #tecnologia {
+        width: 1200px;
+        height: 1000px;
+        border: 1px solid beige;
+        margin: auto;
+        padding-left: 15px;
+    }
+    
+    body {
+        background: beige;
+    }
+    
+    header {
+        width: 1200px;
+        height: 200px;
+        text-align: left;
+        margin-top: 0px;
+        margin-left: 15px;
+    }
+    
+    header h1 {
+        font-family: Algerian;
+        font-size: 45px;
+        font-weight: normal;
+    }
+    
+    #titulo {
+        width: 300px;
+        height: 100px;
+        float: left;
+        text-align: center;
+        font-family: Algerian;
+    }
+    
+    #logo,
+    h1 {
+        display: inline-block;
+        margin-bottom: 0px;
+    }
+    
+    nav {
+        display: inline-block;
+        width: 1200px;
+        text-align: right;
+    }
+    
+    nav ul {
+        list-style-type: none;
+    }
+    
+    nav li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+    
+    nav a {
+        font-size: 20px;
+        color: #181818;
+        padding-bottom: 3px;
+        text-decoration: none;
+        padding: 5px;
+    }
+    
+    nav a:hover {
+        color: #3b69be;
+        border-bottom: 5px solid #3b69be;
+    }
+    
+    #serv {
+        width: 1200px;
+        height: auto;
+        overflow: hidden;
+        border: 1px solid beige;
+        margin-top: 10px;
+    }
+    
+    .L1 {
+        width: 380px;
+        height: 300px;
+        float: left;
+        padding: 5px;
+        background: rgb(189, 186, 186);
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: normal;
+        list-style: none;
+        border: beige;
+    }
+    
+    .L1 a:hover {
+        color: #1a1a1b;
+        border-bottom: 5px solid #1a1a1b;
+    }
+    
+    .L2 {
+        width: 380px;
+        height: 300px;
+        border: 1px solid beige;
+        float: left;
+        padding: 5px;
+    }
+    
+    .L2 h1 {
+        font-family: algerian;
+        font-size: 25px;
+    }
+    
+    .L3 {
+        width: 380px;
+        height: 300px;
+        border: 1px solid beige;
+        float: left;
+        padding: 5px;
+        margin-top: 15px;
+    }
