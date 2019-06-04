@@ -1,8 +1,5 @@
 <!DOCTYPE <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
+
 <html class="no-js">
 <!--<![endif]-->
 
@@ -13,59 +10,134 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/estilos3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ifons/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
 
+    <style>
+        .w3-lobster {
+            font-family: "Lobster", serif;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <h1>Formulario De Contactos</h1>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Pagina Personal</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="active"><a href="contactos.html">Contactos</a></li>
+                    <li><a href="sitios.html">Sitios Turisticos</a></li>
+                </ul>
+                <form class="navbar-form navbar-left" action="/action_page.php">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                      <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+
+        <div class="w3-container w3-lobster">
+            <p class="w3-jumbo"> Formulario De Contactos</p>
+        </div>
+
     </header>
 
-    <nav class="">
-        <ul>
-            <a href="index.html">Incio</a>
-            <a href="contactos.html">Contactos</a>
-            <a href="sitios.html">Sitios Turisticos</a>
-
-        </ul>
-    </nav>
-    <section id="oma">
-        <h3>Informacion</h3>
-        <form class="datos">
-            Nombres:</br>
-            <input type="text" name="Nombre" id="nom" value="" />
-            </br>
-            </br>Apellidos:</br>
-            <input type="text" name="Nombre" id="ape" value="" />
-            </br>
-            </br>Direccion:</br>
-            <input type="text" name="Nombre" id="dir" value="" />
-            </br>
-            </br>Telefono:</br>
-            <input type="text" name="Nombre" id="tel" value="" />
-            </br>
-            </br>email:</br>
-            <input type="text" name="Nombre" id="email" value="" />
-            </br>
-            </br>Sugerencias:</br>
-            <input type="text" name="comment" id="sug" value="Tus sugerencias" size="50"><br><br>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar">
-            </br>
-
+    <div class="container">
+        <h2>Informacion Basica</h2>
+        <form action="/action_page.php">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" class="form-control" id="nomb" placeholder="nombre" name="nombre">
+            </div>
+            <div class="form-group">
+                <label for="name">Apellidos:</label>
+                <input type="text" class="form-control" id="ape" placeholder="apellidos" name="apellido">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Telefono:</label>
+                <input type="phone" class="form-control" id="tel" placeholder="numero" name="telefono">
+            </div>
+            <div class="form-group">
+                <label for="name">Sugerencias:</label>
+                <input type="text" class="form-control" name="comment" id="sug" placeholder="Tus sugerencias">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name="remember"> Recordar</label>
+            </div>
+            <button type="submit" class="btn btn-danger">Eviar</button>
+            <button type="submit" class="btn btn-danger">Borrar</button>
         </form>
-    </section>
-    <section id="con">
-        <img src="ImagenesWeb/montaña.jpg" width="600" height="450">
-    </section>
-    <footer id="fo">
-        <p>Universidad Nacional De Cajamarca </br>
-        </p>
-        <p>Facultad De Ingenieria</p>
-        <p>Escuela Academico Profesional </b>
-            Ingenieria De Sistemas</p>
+    </div>
+
+
+    <footer class="gustos3">
+        <article class="a1">
+            <div class="columna">
+                <h3>Mas Informacion de la pagina</h3>
+                <p>Esta pagina te muestra detalles de todo lo que puedes encontrar en cajamarca y hacer mas facil tu estadia</p>
+            </div>
+        </article>
+        <article class="a2">
+            <div class="columna2">
+                <h3>Redes Sociales</h3>
+                <div class="filas">
+                    <a href="https://www.facebook.com/"><span class="icon-facebook2"></span></a>
+                    <label>Facebook</label>
+                </div>
+
+                <div class="filas">
+                    <a href="https://www.gmail.com/"> <span class="icon-google-drive"></span></a>
+                    <label>gmail</label>
+                </div>
+
+                <div class="filas">
+                    <a href="https://www.twitter.com/"><span class="icon-twitter"></span></a>
+                    <label>twitter</label>
+                </div>
+            </div>
+        </article>
+        <article class="a3">
+            <div class="columna3">
+                <h3>Informacion Personal</h3>
+                <div class="fila2">
+                    <span class="icon-home2"></span>
+                    <label>Perú, Cajamarca, Cajamarca, Jr. Los cedros 353</label>
+                </div>
+                <div class="fila2">
+                    <span class="icon-whatsapp"></span>
+                    <label>995326245</label>
+                </div>
+                <div class="fila2">
+                    <span class="icon-mail4"></span>
+                    <label>mvaldezr13@unc.edu.pe</label>
+                </div>
+            </div>
+        </article>
+
 
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

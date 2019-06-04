@@ -1,56 +1,76 @@
-* {
-    margin: 3px;
-    padding: 5px
-}
-
 body {
-    width: 1200px;
-    height: 10px;
     margin: 0 auto 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    background: url(../ImagenesWeb/contacto.gif) no-repeat fixed center;
+}
+
+header {
     text-align: center;
-    background: beige;
+    margin-top: 0px;
 }
 
-h1 {
-    color: black;
-    font-family: Algerian;
+.gustos3 {
+    width: 100%;
+    border: 1px solid rgb(36, 35, 35);
+    float: left;
+    padding: 5px;
+    position: relative;
+    background: rgb(36, 35, 35);
 }
 
-#oma {
-    width: 500px;
-    height: auto;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    margin-top: 10px;
-    text-align: center;
-}
-
-#con {
-    margin-top: -550px;
-    float: right;
-    color: black;
-    margin-left: 900px;
-}
-
-#id {
-    text-align: center;
-}
-
-#fo {
+.a1 {
+    width: 20%;
+    border: 1px solid rgb(36, 35, 35);
+    float: left;
+    padding: 1px;
     color: white;
-    margin-top: 50px;
-    width: 1200px;
-    height: 80px;
-    margin-left: 0px;
-    font-family: algerian;
-    background: blue;
 }
 
-#fo p {
-    margin: 0px;
+.a2 {
+    width: 40%;
+    border: 1px solid rgb(36, 35, 35);
+    float: left;
+    padding: 1px;
+    color: white;
+    padding-left: 150px;
+}
+
+.a3 {
+    width: 40%;
+    border: 1px solid rgb(36, 35, 35);
+    float: left;
+    padding: 1px;
+    color: white;
+    padding-left: 150px;
+}
+
+.columna h3 {
+    font-family: fantasy;
     text-align: center;
+    color: white;
 }
 
-a:hover {
-    color: black;
+.columna p {
+    font-family: monospace;
+}
+
+.columna2 h3 {
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+}
+
+.columna2 label {
+    font-family: monospace;
+}
+
+.columna3 h3 {
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+}
+
+.columna3 label {
+    font-family: monospace;
 }
