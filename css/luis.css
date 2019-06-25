@@ -1,0 +1,176 @@
+body {
+    margin: 0 auto 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    background: rgb(182, 182, 135);
+}
+
+header {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.container h2 {
+    font-family: Algerian;
+    color: black;
+}
+
+.descripcion {
+    width: 60%;
+    border: 1px solid white;
+    float: left;
+    padding: 10px;
+}
+
+.descripcion h2 {
+    font-family: algerian;
+    text-align: center;
+}
+
+.descripcion p {
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.w3-tangerine {
+    width: 40%;
+    height: 315px;
+    border: 1px solid white;
+    float: left;
+    padding: 0px;
+    text-align: center;
+}
+
+.l1 {
+    width: 100%;
+    border: 1px solid white;
+    float: left;
+    padding: 0px;
+    position: relative;
+}
+
+.l1 h1 {
+    text-align: center;
+    font-family: Algerian;
+    padding: 0px;
+    background-color: azure;
+}
+
+.gustos {
+    width: 50%;
+    border: 1px solid white;
+    float: left;
+    padding: 1px;
+    position: relative;
+}
+
+.gustos h1 {
+    text-align: center;
+}
+
+.gustos article {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    background-color: azure;
+}
+
+.gustos div {
+    padding: 5px;
+}
+
+.gustos1 {
+    width: 50%;
+    border: 1px solid white;
+    float: left;
+    padding: 1px;
+}
+
+.gustos1 h1 {
+    text-align: center;
+}
+
+.gustos1 article {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    background-color: azure;
+}
+
+.gustos2 {
+    width: 100%;
+    border: 1px solid white;
+    float: left;
+    padding: 20px;
+    position: relative;
+}
+
+.gustos2 h2 {
+    font-family: Algerian;
+}
+
+.gustos3 {
+    width: 100%;
+    border: 1px solid rgb(36, 35, 35);
+    float: left;
+    padding: 5px;
+    position: relative;
+    background: rgb(36, 35, 35);
+}
+
+.a1 {
+    width: 20%;
+    border: 1px solid rgb(36, 35, 35);
+    float: left;
+    padding: 1px;
+    color: white;
+}
+
+.a2 {
+    width: 40%;
+    border: 1px solid rgb(36, 35, 35);
+    float: left;
+    padding: 1px;
+    color: white;
+    padding-left: 150px;
+}
+
+.a3 {
+    width: 40%;
+    border: 1px solid rgb(36, 35, 35);
+    float: left;
+    padding: 1px;
+    color: white;
+    padding-left: 150px;
+}
+
+.columna h3 {
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+}
+
+.columna p {
+    font-family: monospace;
+}
+
+.columna2 h3 {
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+}
+
+.columna2 label {
+    font-family: monospace;
+}
+
+.columna3 h3 {
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+}
+
+.columna3 label {
+    font-family: monospace;
+}
